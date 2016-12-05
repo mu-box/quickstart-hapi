@@ -1,8 +1,8 @@
-![Express from scratch](https://guides.nanobox.io/assets/quickstart-icons/express.png)
+![hapi from scratch](https://guides.nanobox.io/assets/quickstart-icons/hapi.png)
 
-# Express from scratch
+# hapi from scratch
 
-Run an Express app locally, install nothing besides nanobox. 
+Run an hapi app locally, install nothing besides nanobox. 
 
 <a href="https://nanobox.io/download"><img src="https://guides.nanobox.io/assets/quickstart-icons/download.png" /></a>
 
@@ -11,16 +11,16 @@ Run an Express app locally, install nothing besides nanobox.
 
 ```bash
 # clone the code
-git clone https://github.com/nanobox-quickstarts/nanobox-express.git
+git clone https://github.com/nanobox-quickstarts/nanobox-hapi.git
 
-# cd into the express app
-cd nanobox-express
+# cd into the hapi app
+cd nanobox-hapi
 ```
 
 ## Run the app
 
 ```bash
-# Run express as you would normally, with Nanobox
+# Run hapi as you would normally, with Nanobox
 nanobox run npm start
 ```
 
@@ -28,10 +28,10 @@ nanobox run npm start
 
 ```bash
 # Add a convenient way to access your app from the browser
-nanobox dns add local express.dev
+nanobox dns add local hapi.dev
 ```
 
-Visit your app at <a href="http://express.dev:3000" target="\_blank">express.dev:3000</a>
+Visit your app at <a href="http://hapi.dev:3000" target="\_blank">hapi.dev:3000</a>
 
 ## Explore
 
@@ -52,6 +52,6 @@ ls
 ```
 
 ## Now What?
-For more details about running express apps with nanobox visit [guides.nanobox.io/nodejs/express/](https://guides.nanobox.io/nodejs/express/)
+For more details about running hapi apps with nanobox visit [guides.nanobox.io/nodejs/hapi/](https://guides.nanobox.io/nodejs/hapi/)
 
 <a href="https://nanobox.io"><img src="https://guides.nanobox.io/assets/quickstart-icons/footer.png" /></a>
