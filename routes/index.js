@@ -1,9 +1,19 @@
-var express = require('express');
-var router = express.Router();
+exports.register = function (app, options, next) {
 
-/* GET home page. */
-router.get('/', function(req, res, next) {
-  res.render('index', { title: 'Express' });
-});
+  app.route({
+    method: 'GET',
+    path: '/',
+    handler: function (request, response) {
+      response.view('index', {
+        title: 'Hapi'
+      });
+    }
+  });
 
-module.exports = router;
+  return next();
+
+};
+
+exports.register.attributes = {
+  name: 'index',
+};
