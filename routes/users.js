@@ -1,9 +1,17 @@
-var express = require('express');
-var router = express.Router();
+exports.register = function (app, options, next) {
 
-/* GET users listing. */
-router.get('/', function(req, res, next) {
-  res.send('respond with a resource');
-});
+  app.route({
+    method: 'GET',
+    path: '/users',
+    handler: function (request, response) {
+      response('respond with a resource');
+    }
+  });
 
-module.exports = router;
+  return next();
+
+};
+
+exports.register.attributes = {
+  name: 'users',
+};
