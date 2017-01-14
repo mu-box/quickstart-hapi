@@ -20,16 +20,14 @@ cd nanobox-hapi
 ## Run the app
 
 ```bash
+# Add a convenient way to access your app from the browser
+nanobox dns add local hapi.dev
+
 # Run hapi as you would normally, with Nanobox
 nanobox run npm start
 ```
 
 ## Check it out
-
-```bash
-# Add a convenient way to access your app from the browser
-nanobox dns add local hapi.dev
-```
 
 Visit your app at <a href="http://hapi.dev:3000" target="\_blank">hapi.dev:3000</a>
 
